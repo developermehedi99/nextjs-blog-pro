@@ -25,7 +25,7 @@ const LatestBlogCard = ({ blog }: { blog: Blog }) => {
           {blog.publish_date}
         </p>
         <h2 className="text-xl font-semibold mt-3 mb-2">{blog.title}</h2>
-        <p className="text-gray-400 mb-4">
+        <p className="text-gray-400 text-sm mb-4">
           {blog.description.length > 100
             ? blog.description.slice(0, 180) + "..."
             : blog.description}
